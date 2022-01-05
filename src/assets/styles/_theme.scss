@@ -1,0 +1,219 @@
+@import './variables';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: $white_bg;
+  font-family: "Work Sans";
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-size: 16px;
+}
+h1 {
+  font-weight: 100;
+  color: $black;
+}
+h3 {
+  font-weight: 300;
+  font-size: 24px;
+}
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+app-main-header {
+  width: 100%;
+  display: flex;
+}
+.nav-wrapper, .spec-wrapper, .our-teachers-wrapper {
+  background: $gray_bg;
+}
+app-main-nav {
+  width: 100%;
+  display: flex;
+}
+.banner {
+  background: $banner_bg;
+  .banner-text-wrapper {
+    .choose-best {
+      color: $primery_orange;
+    }
+    .education {
+      color: $white;
+    }
+    .description {
+      color: $white;
+      margin-top: 30px;
+    }
+  }
+}
+.common-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-wrapper {
+  background: $black_bg;
+  color: $white;
+}
+.copywright {
+  border-top: 1px solid $gray_border;
+}
+.round-div {
+  border: 1px solid $light_gray_border;
+  border-radius: 50%;
+}
+.icon-wrapper, .color-orange {
+  color: $primery_orange;
+}
+.info-wrapper, .about-intro-message {
+  color: $gray_font;
+}
+.logo-txt {
+  .name {
+    color: $primery_orange;
+  }
+  .place {
+    color: $gray_font;
+  }
+}
+.main-nav {
+  ul {
+    li {
+      a {
+        color: $black;
+        &:visited {
+          color: $black;
+        }
+        &:hover {
+          color: $primery_orange;
+        }
+      }
+    }
+  }
+}
+.about-intro-img, .img-wrapper {
+  border: 1px solid $light_gray_border;
+}
+.primery-btn {
+  background:  $primery_orange;
+  color: $white;
+  font-family: Oswald;
+  letter-spacing: 0.2em;
+  &.get-access-btn {
+    background: $white;
+    color: $light_black;
+    border: 1px solid $white;
+  }
+  &:hover {
+    background: transparent;
+    color: $white;
+  }
+}
+.button-wrapper {
+  a.primery-btn {
+    &:hover {
+      background: $black;
+      color: $white;
+    }
+  }
+}
+.light-black-font {
+  color: $light_black;
+}
+.highlighted-section-wrapper {
+  background: $primery_orange;
+  color: $white;
+}
+.spec-wrapper, .course-des {
+  color: $gray_font;
+}
+.course-card-wrapper {
+  .course-card {
+    .img-title {
+      a {
+        color: $light_black;
+        &:hover {
+          color: $primery_orange;
+        }
+      }
+    }
+  }
+}
+.view-all-course-btn {
+  a {
+    &.primery-btn {
+      border: 1px solid $primery_orange;
+      color: $light_black;
+      background: transparent;
+      padding: 12px 40px;
+    }
+    &:hover {
+      background: $primery_orange;
+      color: $white;
+    }
+  }
+}
+.our-teachers {
+  .teacher-img-wrapper {
+    .teacher-card {
+      .designation {
+        color: $gray_font;
+      }
+    }
+  }
+}
+.testimonials-wrapper {
+  .testimonials {
+    .testimonials-card {
+      border: 1px solid $light_gray_border;
+      color: $gray_font;
+      .auther {
+        .name {
+          color: $primery_orange;
+        }
+      }
+    }
+  }
+}
+.footer {
+  .events-des {
+    a {
+      color: $white;
+    }
+  }
+}
+.footer-nav {
+  ul {
+    li {
+      a {
+        color: $white;
+      }
+    }
+  }
+}
+.footer-icons {
+  ul {
+    display: flex;
+    li {
+      a {
+        color: $gray_font;
+      }
+    }
+  }
+}
+.copyright {
+  color: $gray_font;
+  a {
+    color: $gray_font;
+    &:hover {
+      color: $white;
+    }
+  }
+}
